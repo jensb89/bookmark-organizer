@@ -1,5 +1,10 @@
 # AI Bookmark Organizer
 
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-D22128?logo=apache&logoColor=white)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Embeddings: Local](https://img.shields.io/badge/Embeddings-Local-FFD21E?logo=huggingface&logoColor=black)](https://www.sbert.net/)
+![Workflow: Non-destructive](https://img.shields.io/badge/Workflow-Non--destructive-2EA44F)
+
 Turn a messy browser bookmark export into a clean, reviewable folder structure.
 
 This Python pipeline archives older bookmarks, checks links conservatively, groups surviving pages with local embeddings, and uses an OpenAI-compatible LLM to build a compact taxonomy. It never edits your browser directly: every stage produces HTML, JSON, or CSV files you can inspect first.
